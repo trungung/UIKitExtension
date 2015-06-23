@@ -46,7 +46,6 @@
 		6120C45BB59DEF2001F6107B /* Pods-UIKitExtension_Tests-UIKitExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C3D9FD18F7B1CE9345FF89 /* Pods-UIKitExtension_Tests-UIKitExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		650D62E9D8285414448138F2 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E420138D94EC52C9254CCD /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69A7389A12F85A9C016A9CE7 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA792E6B8A3DEEF909E6C60 /* QuickConfiguration.m */; };
-		6B05E18608973445B41E5C15 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03521EB2EAE5D40D5FE48F2 /* ReplaceMe.swift */; };
 		6B5C1E7C426462C0DBC64CD2 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B73FFB4B922B5A9D580886 /* AdapterProtocols.swift */; };
 		70A421B326FA3429B4D986D8 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF41C224BA7DA887DE4176E /* Contain.swift */; };
 		73228000C385CC9A598B876B /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493731C5FBE4A19BDC2BEE6F /* AssertionRecorder.swift */; };
@@ -77,8 +76,10 @@
 		CF9D0842DF09DC349C1118B0 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20E51B096B498A8A6EBB96 /* MatcherProtocols.swift */; };
 		D0B12D24393A215E0E9D6537 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC4283EBF43DBF345A603F /* BeEmpty.swift */; };
 		D6303B815CBBED94744B689C /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA05A05C1E4FF3DE962D88 /* Match.swift */; };
-		D87B31FB7642C6439B56E67E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03521EB2EAE5D40D5FE48F2 /* ReplaceMe.swift */; };
 		D8B26F8A1F3E7F7CA40885CF /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2B4411C6ECF3F42CFBB92 /* Callsite.swift */; };
+		DCA3759E1B39ADBD00170D7F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3759D1B39ADBD00170D7F /* UIViewExtensions.swift */; };
+		DCA375A01B39ADDE00170D7F /* UINavigationBarEtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3759F1B39ADDE00170D7F /* UINavigationBarEtensions.swift */; };
+		DCCCB1471B39BC17001F4056 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCCB1461B39BC17001F4056 /* UILabelExtensions.swift */; };
 		E4AB9FCCD685C9BF694E86C1 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597E7DFFC29A7B8D745958F /* Equal.swift */; };
 		E7203D4508AB517CCAC353A2 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6F38EBDA06C7E5B0BD525 /* BeGreaterThan.swift */; };
 		E756EB0931A823586D90872E /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298D62A718605AD420F9FEC /* QuickSpec.m */; };
@@ -255,8 +256,10 @@
 		D92F724B76894A66005EFC6B /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Nimble/Nimble.h; sourceTree = "<group>"; };
 		DAF41C224BA7DA887DE4176E /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		DB2E7DCF9ED60ACE76A313C8 /* Pods-UIKitExtension_Example-UIKitExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitExtension_Example-UIKitExtension.xcconfig"; sourceTree = "<group>"; };
+		DCA3759D1B39ADBD00170D7F /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		DCA3759F1B39ADDE00170D7F /* UINavigationBarEtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarEtensions.swift; sourceTree = "<group>"; };
+		DCCCB1461B39BC17001F4056 /* UILabelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
 		DE4E11F747D7282986BF941C /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
-		E03521EB2EAE5D40D5FE48F2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		E18AD16C08A5F6C3D373CF80 /* Pods-UIKitExtension_Example-UIKitExtension-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitExtension_Example-UIKitExtension-Private.xcconfig"; sourceTree = "<group>"; };
 		E4923481C6378FFB5799FC43 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Nimble/objc/DSL.m; sourceTree = "<group>"; };
 		EDA56717F2822D3D7F025193 /* Pods-UIKitExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIKitExtension_Tests.modulemap"; sourceTree = "<group>"; };
@@ -592,7 +595,9 @@
 		ED0CA9B3EF68F76F0421D880 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E03521EB2EAE5D40D5FE48F2 /* ReplaceMe.swift */,
+				DCA3759D1B39ADBD00170D7F /* UIViewExtensions.swift */,
+				DCA3759F1B39ADDE00170D7F /* UINavigationBarEtensions.swift */,
+				DCCCB1461B39BC17001F4056 /* UILabelExtensions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -913,7 +918,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCCB1471B39BC17001F4056 /* UILabelExtensions.swift in Sources */,
+				DCA375A01B39ADDE00170D7F /* UINavigationBarEtensions.swift in Sources */,
 				3B73795BEFE5E0841DACC4A8 /* Pods-UIKitExtension_Example-dummy.m in Sources */,
+				DCA3759E1B39ADBD00170D7F /* UIViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -922,7 +930,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B228B9312363320945A7543 /* Pods-UIKitExtension_Example-UIKitExtension-dummy.m in Sources */,
-				D87B31FB7642C6439B56E67E /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -993,7 +1000,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC452BD6EBA9B877B66095E /* Pods-UIKitExtension_Tests-UIKitExtension-dummy.m in Sources */,
-				6B05E18608973445B41E5C15 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1118,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E29072E8B2FBE1A1FECAF98 /* Pods-UIKitExtension_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1416,6 +1423,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F24BA2DD63759BA04B36CBF /* Pods-UIKitExtension_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
