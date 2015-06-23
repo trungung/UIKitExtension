@@ -1,0 +1,20 @@
+PODS:
+  - Nimble (0.4.2)
+  - Quick (0.3.1)
+  - UIKitExtension (0.1.0)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick (~> 0.3.1)
+  - UIKitExtension (from `../`)
+
+EXTERNAL SOURCES:
+  UIKitExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 49b7a7da8919f42823d37c6d68cc6d15a7009f32
+  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
+  UIKitExtension: b560acb31e2b61a0bb6955538a9b1f3f53ff7774
+
+COCOAPODS: 0.37.2

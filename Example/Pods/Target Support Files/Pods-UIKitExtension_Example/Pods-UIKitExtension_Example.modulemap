@@ -1,0 +1,6 @@
+framework module Pods_UIKitExtension_Example {
+  umbrella header "Pods-UIKitExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
