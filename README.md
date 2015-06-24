@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/UIKitExtension.svg?style=flat)](http://cocoapods.org/pods/UIKitExtension)
 [![Platform](https://img.shields.io/cocoapods/p/UIKitExtension.svg?style=flat)](http://cocoapods.org/pods/UIKitExtension)
 
+http://g.recordit.co/MZ2SccsPtc.gif
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
