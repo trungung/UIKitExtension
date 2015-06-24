@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
                        * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/trungung/UIKitExtension"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots     = "http://g.recordit.co/MZ2SccsPtc.gif"
   s.license          = 'MIT'
   s.author           = { "TrungUng" => "trung.ungtoan@asnet.com.vn" }
   s.source           = { :git => "https://github.com/trungung/UIKitExtension.git", :tag => s.version.to_s }
