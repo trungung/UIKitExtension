@@ -10,20 +10,40 @@ import Foundation
 import UIKit
 
 extension UIView {
-  func fadeIn() {
+  
+  /**
+  Fade In Animation
+  
+  :param: duration - Animation duration (default 0.7)
+  */
+  public func fadeIn(_ duration: CFTimeInterval = 0.7) {
     
-    UIView.animateWithDuration(0.7, delay: 0.0, options: UIViewAnimationOptions.CurveEaseIn, animations: {
-      self.alpha = 1.0
+    UIView.animateWithDuration(duration, delay: 0.0, options: UIViewAnimationOptions.CurveEaseIn, animations: {
+        self.alpha = 1.0
       }, completion: nil)
   }
   
-  func fadeOut() {
-    UIView.animateWithDuration(0.7, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
-      self.alpha = 0.0
+  /**
+  Fade Out Animation
+  
+  :param: duration - Animation duration (default 0.7)
+  */
+  public func fadeOut(_ duration: CFTimeInterval = 0.7) {
+    
+    UIView.animateWithDuration(duration, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+        self.alpha = 0.0
       }, completion: nil)
   }
   
-  func rotate360Degrees(duration: CFTimeInterval = 0.7, completionDelegate: AnyObject? = nil) {
+  /**
+  Rotate 360 degrees Animation
+  
+  :param: duration            - Animation duration (default 0.7)
+  :param: completionDelegate
+  */
+  public func rotate360Degrees(_ duration: CFTimeInterval = 0.7, _ completionDelegate: AnyObject? = nil) {
+    
+    // Create a CATransition animation
     let rotateAnimation = CABasicAnimation(keyPath: "transform.rotation")
     rotateAnimation.fromValue = 0.0
     rotateAnimation.toValue = CGFloat(M_PI * 2.0)
@@ -35,11 +55,17 @@ extension UIView {
     self.layer.addAnimation(rotateAnimation, forKey: nil)
   }
   
-  func slideInFromLeft(duration: NSTimeInterval = 0.7, completionDelegate: AnyObject? = nil) {
+  /**
+  SlideIn View from left
+  
+  :param: duration            - Animation duration (default 0.7)
+  :param: completionDelegate
+  */
+  public func slideInFromLeft(_ duration: NSTimeInterval = 0.7, _ completionDelegate: AnyObject? = nil) {
+    
     // Create a CATransition animation
     let slideInFromLeftTransition = CATransition()
     
-    // Set its callback delegate to the completionDelegate that was provided (if any)
     if let delegate: AnyObject = completionDelegate {
       slideInFromLeftTransition.delegate = delegate
     }

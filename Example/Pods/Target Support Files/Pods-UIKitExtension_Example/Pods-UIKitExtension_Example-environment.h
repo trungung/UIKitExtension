@@ -6,6 +6,12 @@
 // project.
 
 
+// CGRectExtensions
+#define COCOAPODS_POD_AVAILABLE_CGRectExtensions
+#define COCOAPODS_VERSION_MAJOR_CGRectExtensions 1
+#define COCOAPODS_VERSION_MINOR_CGRectExtensions 0
+#define COCOAPODS_VERSION_PATCH_CGRectExtensions 1
+
 // UIKitExtension
 #define COCOAPODS_POD_AVAILABLE_UIKitExtension
 #define COCOAPODS_VERSION_MAJOR_UIKitExtension 0
