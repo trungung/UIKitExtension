@@ -16,7 +16,7 @@ extension UIView {
   
   :param: duration - Animation duration (default 0.7)
   */
-  public func fadeIn(_ duration: CFTimeInterval = 0.7) {
+  public func fadeIn(duration: CFTimeInterval = 0.7) {
     
     UIView.animateWithDuration(duration, delay: 0.0, options: UIViewAnimationOptions.CurveEaseIn, animations: {
         self.alpha = 1.0
@@ -28,7 +28,7 @@ extension UIView {
   
   :param: duration - Animation duration (default 0.7)
   */
-  public func fadeOut(_ duration: CFTimeInterval = 0.7) {
+  public func fadeOut(duration: CFTimeInterval = 0.7) {
     
     UIView.animateWithDuration(duration, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
         self.alpha = 0.0
@@ -41,7 +41,7 @@ extension UIView {
   :param: duration            - Animation duration (default 0.7)
   :param: completionDelegate
   */
-  public func rotate360Degrees(_ duration: CFTimeInterval = 0.7, _ completionDelegate: AnyObject? = nil) {
+  public func rotate360Degrees(duration: CFTimeInterval = 0.7, completionDelegate: AnyObject? = nil) {
     
     // Create a CATransition animation
     let rotateAnimation = CABasicAnimation(keyPath: "transform.rotation")
@@ -61,7 +61,7 @@ extension UIView {
   :param: duration            - Animation duration (default 0.7)
   :param: completionDelegate
   */
-  public func slideInFromLeft(_ duration: NSTimeInterval = 0.7, _ completionDelegate: AnyObject? = nil) {
+  public func slideInFromLeft(duration: NSTimeInterval = 0.7, completionDelegate: AnyObject? = nil) {
     
     // Create a CATransition animation
     let slideInFromLeftTransition = CATransition()

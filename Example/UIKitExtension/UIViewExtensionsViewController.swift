@@ -20,13 +20,13 @@ class UIViewExtensionsViewController: UIViewController {
     super.viewDidLoad()
     
     slideLabel.text = "Slide Animation"
-    slideLabel.slideInFromLeft(completionDelegate: nil)
+    slideLabel.slideInFromLeft()
     
     viewExample.alpha = 0
     
     viewExample.fadeIn()
     
-    buttonExample.rotate360Degrees(completionDelegate: nil)
+    buttonExample.rotate360Degrees()
   }
   
   override func didReceiveMemoryWarning() {
