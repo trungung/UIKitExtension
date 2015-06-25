@@ -14,33 +14,33 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-- iOS 8.0+ / Mac OS X 10.9+.
-- Xcode 6.3 (Swift 1.2).
+`iOS 8.0+ / Mac OS X 10.9+.`
+
+`Xcode 6.3 (Swift 1.2).`
 
 ## Quick start
 
-- UIView Animation Extensions
+UIView Animation Extensions
 
-```
-view.fadeIn()					// Fade in animation
-view.fadeOut()					// Fade out animation
-slideLabel.slideInFromLeft()	// Slide from left animation
-refreshButton.rotate360Degrees(completionDelegate: self)  // Rotate 360 degrees
-override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
-  // Do any additional	
-}
+	view.fadeIn()                    // Fade in animation
+	view.fadeOut()                    // Fade out animation
+	slideLabel.slideInFromLeft()    // Slide from left animation
+	
+	// Rotate 360 degrees
+	refreshButton.rotate360Degrees(completionDelegate: self)  
+	override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
+	  // Do any additional    
+	}
 
-```
 
 
-- UIView and CGRect Extensions: work with view and rect geometry easier
+UIView and CGRect Extensions: work with view and rect geometry easier
 
-```
-myView.frame = CGRectMake(10, 10, 20, 20)
-myView.left = 20   // Frame is now {{20, 10}, {20, 20}}
-myView.width = 100 // Frame is now {{20, 10}, {100, 20}}
-myView.right = 150 // Frame is now {{50, 10}, {100, 20}}
-```
+	myView.frame = CGRectMake(10, 10, 20, 20)
+	myView.left = 20   // Frame is now {{20, 10}, {20, 20}}
+	myView.width = 100 // Frame is now {{20, 10}, {100, 20}}
+	myView.right = 150 // Frame is now {{50, 10}, {100, 20}}
+
 
 
 ## Installation
