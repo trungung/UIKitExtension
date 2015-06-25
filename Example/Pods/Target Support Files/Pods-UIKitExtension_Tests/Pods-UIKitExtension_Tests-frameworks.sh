@@ -48,11 +48,13 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'CGRectExtensions.framework'
   install_framework 'Nimble.framework'
   install_framework 'Quick.framework'
   install_framework 'UIKitExtension.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'CGRectExtensions.framework'
   install_framework 'Nimble.framework'
   install_framework 'Quick.framework'
   install_framework 'UIKitExtension.framework'

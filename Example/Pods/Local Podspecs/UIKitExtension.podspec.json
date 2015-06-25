@@ -4,6 +4,7 @@
   "summary": "A Swift Extension for UIKit.",
   "description": "                       An optional longer description of UIKitExtension\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
   "homepage": "https://github.com/trungung/UIKitExtension",
+  "screenshots": "http://g.recordit.co/MZ2SccsPtc.gif",
   "license": "MIT",
   "authors": {
     "TrungUng": "trung.ungtoan@asnet.com.vn"
@@ -22,5 +23,10 @@
       "Pod/Assets/*.png"
     ]
   },
-  "public_header_files": "Classes/**/*.swift"
+  "public_header_files": "Classes/**/*.swift",
+  "dependencies": {
+    "CGRectExtensions": [
+
+    ]
+  }
 }

@@ -5,7 +5,6 @@ link_with 'UIKitExtension_Example'
 
 target 'UIKitExtension_Example', :exclusive => true do
   pod "UIKitExtension", :path => "../"
-  pod 'CGRectExtensions'
 end
 
 target 'UIKitExtension_Tests', :exclusive => true do

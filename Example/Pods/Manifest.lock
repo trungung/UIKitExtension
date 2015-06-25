@@ -2,10 +2,10 @@ PODS:
   - CGRectExtensions (1.0.1)
   - Nimble (0.4.2)
   - Quick (0.3.1)
-  - UIKitExtension (0.1.0)
+  - UIKitExtension (0.1.0):
+    - CGRectExtensions
 
 DEPENDENCIES:
-  - CGRectExtensions
   - Nimble
   - Quick (~> 0.3.1)
   - UIKitExtension (from `../`)
@@ -18,6 +18,6 @@ SPEC CHECKSUMS:
   CGRectExtensions: b5657b18d681607a6298c9d45b0e66acb41ac524
   Nimble: 49b7a7da8919f42823d37c6d68cc6d15a7009f32
   Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
-  UIKitExtension: 08e72073ae7861c9258d3737f6586766713a3612
+  UIKitExtension: 586e9e0c33f3ac913abbc3291f211f0662c0b13d
 
 COCOAPODS: 0.37.2

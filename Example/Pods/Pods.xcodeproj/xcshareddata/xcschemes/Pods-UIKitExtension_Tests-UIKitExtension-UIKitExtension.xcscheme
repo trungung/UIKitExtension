@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "205EE18A5C92A282B27FCD4C"
+               BlueprintIdentifier = "50D39E0F60F1B146EF6CEDD9"
                BuildableName = "UIKitExtension.bundle"
                BlueprintName = "Pods-UIKitExtension_Tests-UIKitExtension-UIKitExtension"
                ReferencedContainer = "container:Pods.xcodeproj">
